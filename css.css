@@ -1,0 +1,36 @@
+#file-details{position:relative;}
+
+#info{
+	z-index: 30;
+	font-size: 18px;
+	display: inline-block;
+		cursor: pointer;
+}
+
+#details{
+	position:absolute;
+	width: 400px;
+	height : 280px;	
+	top : 10px;
+	left : 120px;
+	background-color : white ;
+	border-style: solid;
+	border-color: black;
+	border-color: #A0A0A0;
+	border-left-color: #363636;
+	border-width: 1px 1px 1px 7px;
+	z-index: 20;
+	text-align: center;
+	font-size: 13px;
+}
+
+.details{
+	display: none;
+}
+
+.info:hover .details {
+	display: block; 
+}
+
+.info:hover  {
+}
